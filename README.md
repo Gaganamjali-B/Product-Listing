@@ -32,5 +32,4 @@ The app allows users to **filter**, **sort**, and **browse** products dynamicall
 
 ## ✨ Author
 **👩‍💻 Gaganamjali B**  
-_Web Development Intern — ApexPlanet Software Pvt. Ltd._  
-📅 2025
+
