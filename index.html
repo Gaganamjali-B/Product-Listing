@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🛍️ Product Listing | ApexPlanet Task 5</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">ApexShop</h1>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Find Your Perfect Product 🛒</h2>
+    <p>Browse, filter, and sort through a selection of modern items — fast and responsive!</p>
+  </section>
+
+  <section id="filterSection">
+    <h3>Filter & Sort</h3>
+    <select id="categoryFilter" onchange="filterProducts()">
+      <option value="all">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="fashion">Fashion</option>
+      <option value="home">Home</option>
+    </select>
+
+    <select id="sortFilter" onchange="sortProducts()">
+      <option value="default">Sort by</option>
+      <option value="priceLow">Price: Low to High</option>
+      <option value="priceHigh">Price: High to Low</option>
+      <option value="rating">Rating</option>
+    </select>
+  </section>
+
+  <section id="products" class="product-grid"></section>
+
+  <footer>
+    <p>© 2025 ApexPlanet | Task 5 – Final Project & Optimization</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

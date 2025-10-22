@@ -1,0 +1,6 @@
+[
+  { "name": "Wireless Headphones", "category": "electronics", "price": 1999, "rating": 4.6 },
+  { "name": "Smart Watch", "category": "electronics", "price": 2499, "rating": 4.8 },
+  { "name": "T-Shirt", "category": "fashion", "price": 799, "rating": 4.2 },
+  { "name": "Sofa Cushion", "category": "home", "price": 499, "rating": 4.0 }
+]
